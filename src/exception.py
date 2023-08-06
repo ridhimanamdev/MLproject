@@ -1,6 +1,6 @@
 import sys 
 #sys is used to manipulate the diffrent parts of the python
-import logging 
+from src.logger import logging 
 
 def error_message_detail(error, error_detail:sys):
     _,_,exe_tb= error_detail.exc_info()
